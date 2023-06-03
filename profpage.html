@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	
+	<title>EcoLogic</title>
+	<meta name="decription" content="Find out more about such a significant issue nowadays!"/>
+	<meta name="keywords" content="ecology, global warming, bins, paper, plastic" />
+	<meta http-equiv= "X-UA- Compatible" content= "IE= edge, chrome=1"/>
+	<link rel= "stylesheet" type="text/css" href="prof.css"/>
+	<link rel= "stylesheet" type="text/css" href="css/fontello.css"/>
+	
+	<script type="text/javascript">
+			
+			function odliczanie()
+
+			{var dzisiaj = new Date();
+			
+			
+			
+			var hour = dzisiaj.getHours();
+			if (hour<10) hour="0"+ hour;
+			
+			var minutes = dzisiaj.getMinutes();
+						if (minutes<10) minutes="0"+ minutes;
+
+			var seconds = dzisiaj.getSeconds();
+							if (seconds<10) seconds="0"+ seconds;
+
+			document.getElementById("zegar").innerHTML =  hour+":"+minutes+":"+seconds;
+			
+			setTimeout("odliczanie()",1000);
+			
+			}
+			
+			</script>
+</head>
+
+<body>
+
+<body onload="odliczanie();">
+		
+	
+			
+			
+	<div id="container">
+		<div class="rectangle">
+			<div id="logo">
+		<i class=" icon-envira"></i>
+			<span style="color:#647d4b">Eco</span>Logic</div>
+			<div id="zegar">12:00:00</div>
+			<div style="clear: both;"></div>
+		</div>
+			
+			<div class="square">
+				<div class="papier"><a href="papier.html" class="tilelink"><i class=" icon-trash-1"></i><br /><br />Papier</a></div>
+				<div class="plastik"><a href="plastik.html" class="tilelink"><i class=" icon-trash-1"></i><br /><br />Plastik</a></div>
+				<div style="clear:both;"></div>
+				
+				<div class="szkło"><a href="szklo.html" class="tilelink"><i class=" icon-trash-1"></i><br /><br />Szkło</a></div>
+				<div class="kalkulator"><a href="kalkulator.html" class="tilelink"><i class=" icon-calc"></i><br /><br />Kalkulator</a></div>
+				<div style="clear:both;"></div>
+				
+			</div>
+			<div class="square">
+			<div class="tile5"><i class=" icon-recycle"></i></div>
+			
+			</div>
+			<div style="clear:both;"></div>
+			
+			<div class="rectangle">2015 &copy; Hanna Jaruzel, Maja Połubok, Martyna Kawiak</div>
+	
+	</div>
+
+
+</body>
+</html>

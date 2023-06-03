@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	
+	<title>EcoLogic</title>
+	<meta name="description" content="Find out more about such a significant issue nowadays!"/>
+	<meta name="keywords" content="ecology, global warming, bins, paper, plastic" />
+	<meta http-equiv= "X-UA- Compatible" content= "IE= edge, chrome=1"/>
+	<link rel= "stylesheet" type="text/css" href="podstrony.css"/>
+	<link rel= "stylesheet" type="text/css" href="css/fontello.css"/>
+	
+	<script type="text/javascript">
+			
+			function odliczanie()
+
+			{var dzisiaj = new Date();
+			
+			var hour = dzisiaj.getHours();
+			if (hour<10) hour="0"+ hour;
+			
+			var minutes = dzisiaj.getMinutes();
+						if (minutes<10) minutes="0"+ minutes;
+
+			var seconds = dzisiaj.getSeconds();
+							if (seconds<10) seconds="0"+ seconds;
+
+			document.getElementById("zegar").innerHTML =  hour+":"+minutes+":"+seconds;
+			
+			setTimeout("odliczanie()",1000);
+			
+			}
+			
+			</script>
+</head>
+
+<body>
+
+<body onload="odliczanie();">
+		
+	
+			
+			
+	<div id="container">
+	
+		<div class="rectangle">
+		
+			<div id="logo">
+		<i class=" icon-envira"></i>
+			<span style="color:#647d4b">Eco</span>Logic <span style="color: #647d4b"><br/><br/> szkło </span></div>
+			<div id="zegar">12:00:00</div>
+			<div style="clear: both;"></div>
+			
+		</div>
+		
+		<div class="square">
+			
+			<div class="wyrzucaj" style="background-color: #647d4b">
+				<b><span style="font-size: 16px">WYRZUCAJ:</span></b> <br /><br />
+				1. Szkło białe i kolorowe:<br />
+				<ul type="circle">
+					<li>puste szklane słoiki i butelki;</li><br />
+					<li>szklane opakowania po kosmetykach.</li><br />
+				</ul>
+			</div>
+			
+			<div class="niewyrzucaj" style="background-color: #647d4b">
+				<b><span style="font-size: 16px"> NIE WYRZUCAJ:</span></b> <br />
+				<ul type="circle">
+					<li>porcelany i ceramiki;</li><br />
+					<li>szklanek i kieliszków;</li><br />
+					<li>luster, szyb, szkła okiennego;</li><br />
+					<li>zniczy, doniczek;</li><br /><br />
+					<li>okularów.</li><br /><br />
+				</ul>
+			</div>
+			<div id="mity" style="background-color: #647d4b">
+			<b><span style="font-size: 16px">MITY I FAKTY</span></b><br /><br />
+			MIT: Segregacja odpadów nie ma sensu, bo wszystko i tak ląduje w jednej śmieciarce. <br />
+			FAKT: Większość śmieciarek ma kilka oddzielnych przegród, dzięki czemu odpady się nie mieszają.<br />
+			</div>
+		</div>
+		
+		<div class="tile6" style="background-color: #647d4b"><i class=" icon-recycle"></i></div>
+		<div class="square">
+			<div class="home"><a href="profpage.html" class="tilelink"><i class="icon-emo-happy"></i><br /><br /></a></div>
+			<div class="plastik"><a href="plastik.html" class="tilelink"><i class="icon-trash-1"></i><br /><br /></a></div>
+			<div class="papier"><a href="papier.html" class="tilelink"><i class="icon-trash-1"></i><br /><br /></a></div>
+			
+		</div>
+	</div>
+			
+			
+			
+			
+			<div style="clear:both;"></div>
+			
+			<div class="rectangle">2015 &copy; Hanna Jaruzel, Maja Połubok, Martyna Kawiak</div>
+	
+
+
+</body>
+</html>

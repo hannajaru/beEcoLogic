@@ -1,0 +1,240 @@
+body{
+	background-color: #303030;
+	color:#ffffff;
+	font-family: Josefin Sans, sans-serif;
+	font-size: 20px;
+}
+
+#container
+{
+	width:1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.rectangle{
+	width: 960px;
+	margin: 20px;
+	text-align: center;
+	border-bottom: 5px, dotted, black;
+}
+
+.square{
+	width: 50%;
+	float:left;
+	text-align: center;
+	
+	
+}
+	
+#logo{
+	float: left;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 70px;
+	width: 600px;
+	background-color: #303030;
+	text-align: left;
+
+}
+
+#zegar{
+	float: left;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 70px;
+	text-align: left;
+	
+
+}
+
+.papier{
+	margin: 10px;
+	width: 220px;
+	height: 220px;
+	background-color: #3e5257;
+	color: lightblue;
+	float: left;
+	text-align: center;
+	border-radius: 25px;
+	
+}
+
+.szkło{
+margin: 10px;
+	width: 220px;
+	height: 220px;
+	background-color: #647d4b;
+	float: left;
+	text-align: center;
+	color: #a7eb86;
+	border-radius: 25px;
+}
+
+.kalkulator{
+margin: 10px;
+	width:220px;
+	height: 220px;
+	background-color: #8f5b66;
+	float: left;
+	text-align: center;
+	color:#f2c9eb;
+	border-radius: 25px;
+}
+
+.plastik{
+margin: 10px;
+	width: 220px;
+	height: 220px;
+	background-color: #827937;
+	float: left;
+	text-align: center;
+	color:#ebd581;
+	border-radius: 25px;
+	
+	
+}	
+
+#zegar{
+	border: 5px solid white;
+	padding: 3px;
+	border-radius: 15px;
+	background-color: #647d4b;
+	
+	
+}
+input[type=submit] {
+	background-color: #647d4b;
+	border: 3px solid white;
+	height: 50px;
+	min-width: 100px;
+	font-family: Josefin Sans;
+	font-size: 25px;
+	color: white;
+	border-radius: 12px;
+	margin: 15px;
+}
+
+input[type=text] {
+	background-color: #647d4b;
+	border: 3px solid white;
+	height: 50px;
+	width: 50px;
+	font-family: Josefin Sans;
+	font-size: 25px;
+	color: white;
+	border-radius: 12px;
+	margin: 15px;
+}
+#wynik{
+	background-color: #647d4b;
+	border: 3px solid white;
+	min-height: 40px;
+	width: 150px;
+	font-family: Josefin Sans;
+	font-size: 25px;
+	color: white;
+	border-radius: 12px;
+	margin: 15px;
+	float:left;
+	margin-left: 60px;
+	padding-top: 10px;
+
+	
+	
+}
+
+
+a.tilelink{
+	color:#9c9e77;
+	
+	text-decoration:none;
+	display:block;
+	width:220px;
+	height: 220px;
+	border-radius: 25px;
+}
+
+#kom{
+	background-color: #647d4b;
+	border: 3px solid white;
+	min-height: 30px;
+	width: 150px;
+	font-family: Josefin Sans;
+	float:left;
+	font-size: 25px;
+	color: white;
+	border-radius: 12px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+margin: 15px;}
+
+input[type=submit]:hover{
+	color: #647d4b;
+	background-color: white;
+	cursor: pointer;
+	
+	
+	
+}
+.tile5{
+margin: 10px;
+padding-top: 35px;
+
+	width: 480px;
+	height: 425px;
+	background-color: #636051;
+	border-radius: 25px;
+}	
+
+		.papier:hover{
+			background-color: white;
+			color: #3e5257;
+		
+			cursor: pointer;
+		}
+		.szkło:hover{
+			background-color: white;
+			color:#647d4b;
+		
+			cursor: pointer;
+		}
+		.plastik:hover{
+			background-color: white;
+			color: #827937;
+		
+			cursor: pointer;
+		}
+		.kalkulator:hover{
+			background-color: white;
+			color:#8f5b66;
+		
+			cursor: pointer;
+		}
+.ig{
+margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #943d62;
+	float: left;
+}
+.fb{
+margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #943d62;
+	float: left;
+}
+.gplus{
+margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #943d62;
+	float: left;
+}
+.tw{
+margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #943d62;
+	float: left;
+}

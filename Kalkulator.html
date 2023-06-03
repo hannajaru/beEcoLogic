@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	
+	<title>EcoLogic</title>
+	<meta name="decription" content="Find out more about such a significant issue nowadays!"/>
+	<meta name="keywords" content="ecology, global warming, bins, paper, plastic" />
+	<meta http-equiv= "X-UA- Compatible" content= "IE= edge, chrome=1"/>
+	<link rel= "stylesheet" type="text/css" href="prof.css"/>
+	<link rel= "stylesheet" type="text/css" href="css/fontello.css"/>
+	
+	<script type="text/javascript">
+			
+			function odliczanie()
+
+			{var dzisiaj = new Date();
+			
+			
+			
+			var hour = dzisiaj.getHours();
+			if (hour<10) hour="0"+ hour;
+			
+			var minutes = dzisiaj.getMinutes();
+						if (minutes<10) minutes="0"+ minutes;
+
+			var seconds = dzisiaj.getSeconds();
+							if (seconds<10) seconds="0"+ seconds;
+
+			document.getElementById("zegar").innerHTML =  hour+":"+minutes+":"+seconds;
+			
+			setTimeout("odliczanie()",1000);
+			
+			}
+			
+			
+			function sprawdz()
+	{
+	let liczba = document.getElementById("pole").value;
+	liczba = parseInt( liczba );
+	
+	document.getElementById("wynik").innerHTML = liczba * 13 + " " + "litrów";
+	}
+	
+	function kom()
+	{ var liczba= document.getElementById("pole").value;
+	 
+	 if(liczba >8) document.getElementById("kom").innerHTML = "Postaraj się ograniczyć czas do chociaż 8 minut";
+	 else if(liczba < 8) document.getElementById("kom").innerHTML = " tak trzymaj";}
+	
+			
+			</script>
+</head>
+
+<body>
+
+<body onload="odliczanie();">
+		
+	
+			
+			
+	<div id="container">
+		<div class="rectangle">
+			<div id="logo">
+		<i class=" icon-envira"></i>
+			<span style="color:#647d4b">Eco</span>Logic</div>
+			<div id="zegar">12:00:00</div>
+			<div style="clear: both;"></div>
+		</div>
+			
+			<div class="square">
+				<div class="papier"><a href="papier.html" class="tilelink"><i class=" icon-trash-1"></i><br /><br />Papier</a></div>
+				<div class="plastik"><a href="papier.html" class="tilelink"><i class=" icon-trash-1"></i><br /><br />Plastik</a></div>
+				<div style="clear:both;"></div>
+				
+				<div class="szkło"><a href="papier.html" class="tilelink"><i class=" icon-trash-1"></i><br /><br />Szkło</a></div>
+				<div class="kalkulator"><i class=" icon-calc"></i><br /><br />Kalkulator</div>
+				<div style="clear:both;"></div>
+				
+				
+			</div>
+			<div class="square">
+			<div class="tile5">
+			<span style="font-size: 30px; color: white; margin-top: 20px;">Zużycie wody w czasie kąpieli</span><br />
+			
+			Ile minut się kąpiesz: <input type="text"  id="pole" /><br />
+<input type="submit" value="Ile to l?" onclick="sprawdz()"/>
+<input type="submit" value="Co dalej?" onclick="kom()"/>
+<div style="clear:both;"></div>
+<div id="wynik"> </div>
+<div id="kom"></div></div>
+			
+			</div>
+			<div style="clear:both;"></div>
+			
+			<div class="rectangle">2015 &copy; Hanna Jaruzel, Maja Połubok, Martyna Kawiak</div>
+	
+	</div>
+
+
+</body>
+</html>

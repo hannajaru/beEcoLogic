@@ -1,0 +1,221 @@
+body
+{
+	background-color: #303030;
+	color:#303030;
+	font-size: 20px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h4{
+	text-align: center !important;
+	
+}
+
+a.tilelink{
+	color:#9c9e77;
+	
+	text-decoration:none;
+	display:block;
+	width:140px;
+	height: 160px;
+	border-radius: 25px;
+}
+#container
+{
+	width:1100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.rectangle
+{
+	width: 1100px;
+	margin: 20px;
+	text-align: center;
+	font-size: 15px;
+	border-bottom: 5px, dotted, black;
+}
+
+.square
+{
+	width: 50%;
+	float: left;
+}
+	
+#logo
+{
+	float: left;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 70px;
+	width: 600px;
+	background-color: #303030;
+	text-align: left;
+	color: white;
+
+}
+
+#mity
+{
+	clear: both;
+	margin: 10px;
+	width: 510px;
+	min-height: 120px;
+	border-radius: 25px;
+	font-size: 15px;
+	padding: 10px;
+	font-family: 'Josefin Sans', sans-serif;
+	padding-top: 30px;
+
+}
+
+.wyrzucaj
+{
+	float: left;
+	margin: 10px;
+	margin-bottom: 20px;
+	width: 235px;
+	height: 280px;
+	border-radius: 25px;
+	font-size: 15px;
+	padding: 10px;
+	font-family: 'Josefin Sans', sans-serif;
+	padding-top: 40px;
+	text-align: leftl;
+}
+
+.niewyrzucaj
+{
+	float: left;
+	margin: 10px;
+	width: 235px;
+	height: 280px;
+	border-radius: 25px;
+	font-size: 15px;
+	padding: 10px;
+	font-family: 'Josefin Sans', sans-serif;
+	padding-top: 40px;
+	text-align: left;
+}
+
+#zegar
+{
+	float: left;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 70px;
+	text-align: left;
+}
+
+.home
+{
+	margin: 10px;
+	min-width: 140px;
+	min-height: 160px;
+	background-color: #8f5b66;
+	color: dark-gray;
+	float: left;
+	text-align: center;
+	border-radius: 25px;
+	margin-left: 30px;
+}
+
+.szkło
+{
+	margin: 10px;
+	min-width: 110px;
+	min-height: 110px;
+	background-color: #647d4b;
+	float: left;
+	text-align: center;
+	color: #a7eb86;
+	border-radius: 25px;
+
+}
+
+.kalkulator
+{
+	margin: 10px;
+	min-width:110px;
+	min-height: 110px;
+	background-color: #8f5b66;
+	float: left;
+	text-align: center;
+	color:#f2c9eb;
+	border-radius: 25px;
+}
+
+.plastik
+{
+	margin: 10px;
+	min-width: 110px;
+	min-height: 110px;
+	background-color: #827937;
+	float: left;
+	text-align: center;
+	color:#efff63;
+	border-radius: 25px;
+}
+
+.papier
+{
+	margin: 10px;
+	min-width: 110px;
+	min-height: 110px;
+	background-color: lightblue;
+	float: left;
+	text-align: center;
+	border-radius: 25px;
+	
+	
+}	
+
+#zegar
+{
+	border: 5px solid white;
+	padding: 3px;
+	border-radius: 15px;
+	background-color: #647d4b;
+	
+	
+}
+
+
+.tile6
+{
+	margin: 10px;
+	width: 500px;
+	height: 330px;
+	border-radius: 25px;
+	float: left;
+	text-align: center;
+}
+	
+		.home:hover{
+			background-color: white;
+			color: #3e5257;
+		
+			cursor: pointer;
+		}
+		.szkło:hover{
+			background-color: white;
+			color:#647d4b;
+		
+			cursor: pointer;
+		}
+		.papier:hover{
+			background-color: white;
+			color:#647d4b;
+		
+			cursor: pointer;
+		}
+		.plastik:hover{
+			background-color: white;
+			color: #827937;
+		
+			cursor: pointer;
+		}
+		.kalkulator:hover{
+			background-color: white;
+			color:#8f5b66;
+		
+			cursor: pointer;
+		}
